@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-reasonml",
+  "name": "reason-todo",
   "reason": {
     "react-jsx": 3
   },
