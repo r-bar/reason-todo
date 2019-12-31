@@ -9,12 +9,14 @@ module Config = {
   type route =
     | Home
     | About
+    | Todo
     | NotFound;
 
   let toRoute = (url: ReasonReact.Router.url) => {
     switch (url.path) {
     | [] => Home
     | ["about"] => About
+    | ["todo"] => Todo
     | _ => NotFound
     };
   };
@@ -23,6 +25,7 @@ module Config = {
     fun
     | Home => "/"
     | About => "/about"
+    | Todo => "/todo"
     | NotFound => "/404";
 };
 

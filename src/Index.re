@@ -1,3 +1,4 @@
+// css reset
 Css.(
   global("html", [boxSizing(borderBox)]),
   global("*, *::before, *::after", [boxSizing(inherit_)]),
