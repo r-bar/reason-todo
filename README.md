@@ -1,3 +1,7 @@
+# ReasonML Todo List Tutorial
+This is a small project to learn the basics of the [Reason React framework](https://reasonml.github.io/reason-react/en/).
+I used [Jared Forsyth's tutorial](https://jaredforsyth.com/posts/a-reason-react-tutorial/) as a guide with some license taken.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
